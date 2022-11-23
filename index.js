@@ -7,7 +7,7 @@ const returnLastTwoDrivers = function(arr){
     return arr.slice(-2);
 }
 
-selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 const createFareMultiplier = function(num){
     return fare => num*fare;
